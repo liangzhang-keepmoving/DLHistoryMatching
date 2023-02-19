@@ -1,0 +1,5 @@
+setup.py
+CNNHM.egg-info/PKG-INFO
+CNNHM.egg-info/SOURCES.txt
+CNNHM.egg-info/dependency_links.txt
+CNNHM.egg-info/top_level.txt
