@@ -25,10 +25,12 @@
 ```bash
 git clone https://github.com/liangzhang-keepmoving/DLHistoryMatching.git
 cd DLHistoryMatching
+```
 
 2. 安装依赖
 ```bash
 python setup.py
+```
 
 ### 使用方法
 
@@ -46,3 +48,4 @@ model.train(train_data, train_labels)
 # 评估模型
 accuracy = model.evaluate(test_data, test_labels)
 print(f"模型准确率：{accuracy}")
+```
