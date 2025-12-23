@@ -25,3 +25,24 @@
 ```bash
 git clone https://github.com/liangzhang-keepmoving/DLHistoryMatching.git
 cd DLHistoryMatching
+
+2. 安装依赖
+```bash
+python setup.py
+
+### 使用方法
+
+示例代码
+```bash
+# 此处可添加简单的使用示例，如模型训练或推理的代码片段
+from CNNTools import SomeModel  # 假设的模块，需根据实际情况修改
+
+# 初始化模型
+model = SomeModel()
+
+# 训练模型
+model.train(train_data, train_labels)
+
+# 评估模型
+accuracy = model.evaluate(test_data, test_labels)
+print(f"模型准确率：{accuracy}")
